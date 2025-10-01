@@ -1,34 +1,103 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router";
+import { LanguageProvider } from "./context/LanguageContext";
+import { lazy } from "react";
+import BlackJack from "./views/games/BlackJack";
+import FruitFinder from "./views/games/FruitFinder";
+import SpaceBubbles from "./views/games/SpaceBubbles";
+import Main from "./shared/layout/Main";
+import TrickyBricks from "./views/games/TrickyBricks";
+import JungleTreasures from "./views/games/JungleTreasures";
+import SunnyBlocks from "./views/games/SunnyBlocks";
+import JustBingo from "./views/games/JustBingo";
+import Domino from "./views/games/Domino";
+import IntoTheDungeon from "./views/games/IntoTheDungeon";
+import SolitaireParadise from "./views/games/SolitaireParadise";
+
+const Home = lazy( () => import('./views/Home') )
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+      const helpRoutes = [
+        {
+          component: <FruitFinder />,
+          route: "/fruit-finder"
+        },
+        {
+          component: <BlackJack />,
+          route: "/21-blackjack/"
+        },
+        {
+          component: <SpaceBubbles />,
+          route: "/space-bubbles/"
+        },
+        {
+          component: <JungleTreasures />,
+          route: "/jungle-treasures/"
+        },
+        {
+          component: <TrickyBricks />,
+          route: "/tricky-bricks/"
+        },
+        {
+          component: <SunnyBlocks />,
+          route: "/sunny-blocks/"
+        },
+        {
+          component: <SolitaireParadise />,
+          route: "/solitare-paradise/"
+        },
+        {
+          component: <JustBingo />,
+          route: "/just-bingo"
+        },
+        {
+          component: <IntoTheDungeon />,
+          route: "/into-the-dungeon"
+        },
+        {
+          component: <Domino />,
+          route: "/domino"
+        },
+        {
+          component: <BlackJack />,
+          route: "/gems-blast"
+        },
+    ]
+    //   const helpRoutes = [
+    //       "/fruit-finder",
+    //       "/21-blackjack/",
+    //       "/space-bubbles/",
+    //       "/jungle-treasures/",
+    //       "/tricky-bricks/",
+    //       "/sunny-blocks/",
+    //       "/solitare-paradise/",
+    //       "/just-bingo",
+    //       "/into-the-dungeon",
+    //       "/domino",
+    //       "/gems-blast",
+    // ]
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Router>
+      <LanguageProvider>
+        <Main >
+          <Routes>
+            <Route path="/" index element={<Home/>} /> 
+
+            {
+              helpRoutes.map(({ component, route }) =>{
+                return <Route
+                  path={route}
+                  element={component}
+                />
+              })
+            }
+
+          </Routes>
+        </Main>
+      </LanguageProvider>
+    </Router>
   )
 }
 

@@ -12,3 +12,7 @@ it detects language via URL parameters; it can read es_ES, en_US, and pt_BR.
 2. npm run dev 
 3. npm run build
 
+
+### Translations 
+
+1. npm run translations -- game-rules.xlsx

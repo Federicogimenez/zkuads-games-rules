@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Virus Killer';
+    src: url('../../fonts/zkuads.ttf') ;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../fonts/Roboto/static/Roboto-Variable.ttf'), format('ttf');
+    font-style: normal;
+}
