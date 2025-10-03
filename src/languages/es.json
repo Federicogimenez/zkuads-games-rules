@@ -1,10 +1,10 @@
 {
   "base": {
-    "games_rules": "Reglas del Juego",
-    "game_about": "Acerca de",
-    "game_scoring": "Puntuación",
-    "game_boosters": "Impulsores",
-    "game_end": "Fin del Juego"
+    "games_rules": "REGLAS DEL JUEGO",
+    "game_about": "DESCRIPCIÓN",
+    "game_scoring": "PUNTUACIÓN",
+    "game_boosters": "POTENCIADORES",
+    "game_end": "FIN DEL JUEGO"
   },
   "blackjack": {
     "about_text_1": "En 21BJ juegas con una baraja estándar de 52 cartas (sin comodines), robando cartas una por una de un mazo boca abajo y colocándolas en cuatro columnas donde formarás tus manos.",
@@ -190,8 +190,13 @@
     "about_text_2": "Una excelente manera de ganar puntos extra es con el efecto colgante: cuando limpias una combinación, cualquier burbuja que quede completamente suspendida en el aire caerá para otorgar puntaje adicional.",
     "about_text_3": "Tienes control total sobre tu cola de disparos y puedes intercambiar tu burbuja actual con la siguiente tantas veces como quieras tocando el área de la burbuja activa, permitiéndote preparar el mejor ataque posible.",
     "about_text_4": "Debes procurar mantener una racha de combinaciones consecutivas para cargar Power-Ups poderosos, que solo se vacían si rompes la racha; una vez cargado, el Power-Up no se pierde si el siguiente disparo falla. La Bomba de Burbujas requiere 5 combinaciones consecutivas, destruye todas las burbujas en su radio sin importar el tipo (incluyendo las resistentes Burbujas de Acero) y solo afecta las burbujas en pantalla. La mucho más fuerte Burbuja Meteoro requiere 10 combinaciones consecutivas, destruye cada burbuja en su camino (en o fuera de pantalla, sin importar el tipo) y destruye completamente las Burbujas Encadenadas. Ambos Power-Ups se diferencian de los disparos normales porque no rebotan en las paredes laterales.",
-    "about_text_5": "A medida que avanzas, enfrentarás Burbujas de Doble Color, que pueden combinarse con cualquiera de los dos colores que contienen, y Burbujas de Acero, que solo pueden eliminarse al dejarlas caer o con un Power-Up. Finalmente, Burbujas Encadenadas no se destruyen con una combinación de color; en su lugar, la combinación solo rompe sus cadenas, dejando la burbuja disponible para caer y dar puntos si se separa del grupo principal.",
-    "about_text_6": "Recuerda: una combinación exitosa siempre destruye todas las otras burbujas adyacentes del mismo color en la pantalla, creando potencial para enormes reacciones en cadena.",
+    "about_special_1_title": "Burbujas de Doble Color",
+    "about_special_1_p": "Pueden combinarse con cualquiera de los dos colores que contienen.",
+    "about_special_2_title": "Burbujas de Acero",
+    "about_special_2_p": "Solo pueden eliminarse al dejarlas caer o con un Power-Up.",
+    "about_special_3_title": "Burbujas Encadenadas",
+    "about_special_3_p": "No se destruyen con una combinación de color; en su lugar, la combinación solo rompe sus cadenas, dejando la burbuja disponible para caer y dar puntos si se separa del grupo principal.",
+    "about_text_5": "Recuerda: una combinación exitosa siempre destruye todas las otras burbujas adyacentes del mismo color en la pantalla, creando potencial para enormes reacciones en cadena.",
     "scoring_text_1": "Destruir Burbujas / Cadenas – 10 puntos por cada burbuja o cadena destruida.",
     "scoring_text_1_example": "Ejemplo: Un grupo de 4 burbujas da 50 puntos (las cuatro del grupo más la quinta usada para destruirlas).",
     "scoring_text_1_note": "Nota: La Burbuja Arcoíris cuenta como una burbuja normal al calcular puntos.",

@@ -1,10 +1,10 @@
 {
   "base": {
-    "games_rules": "Game Rules",
-    "game_about": "About",
-    "game_scoring": "Scoring",
-    "game_boosters": "Boosters",
-    "game_end": "Game End"
+    "games_rules": "GAME RULES",
+    "game_about": "ABOUT",
+    "game_scoring": "SCORING",
+    "game_boosters": "BOOSTERS",
+    "game_end": "GAME END"
   },
   "blackjack": {
     "about_text_1": "In 21BJ you play with a standard 52-card deck (no jokers), drawing cards one by one from a face-down deck and placing them into four columns where you’ll build your hands.",
@@ -190,8 +190,13 @@
     "about_text_2": "A great way to earn bonus points is the dangling effect: when you clear a match, any bubbles left completely suspended in the air will fall away for an extra score.",
     "about_text_3": "You have full control over your shot queue and can swap your current bubble with the next one as many times as you like by tapping the active bubble area, allowing you to set up the best possible attack.",
     "about_text_4": "You should strive to maintain a consecutive match streak to charge powerful Power-Ups, which only empty if you break the streak; once a Power-Up is charged, you won't lose it if your next shot misses. An Bubble-Bomb requires 5 consecutive matches, destroys all bubbles within its radius regardless of their type (including the tough Steel Bubbles), and only affects bubbles on screen. The much stronger Meteor Bubble requires 10 consecutive matches, destroys every bubble in its path (on or off-screen, regardless of type), and completely destroys Chained Bubbles. Both Power-Ups differ from regular shots by not bouncing off the side walls.",
-    "about_text_5": "As you progress, you'll face Dual Color Bubbles, which can be matched with either of the two colors they contain and Steel Bubbles, which can only be removed by being dropped or by using a Power-Up. Finally, Chained Bubbles won't be destroyed by a color match; instead, the match only breaks their chains, leaving the bubble available to drop for points if it becomes separated from the main mass.",
-    "about_text_6": "Remember that a successful match will always destroy all other adjacent bubbles of the same color on screen, setting up the potential for huge chain reactions.",
+    "about_special_1_title": "Dual Color Bubbles",
+    "about_special_1_p": "Can be matched with either of the two colors they contain.",
+    "about_special_2_title": "Steel Bubbles",
+    "about_special_2_p": "Can only be removed by being dropped or by using a Power-Up.",
+    "about_special_3_title": "Chained Bubbles",
+    "about_special_3_p": "Won't be destroyed by a color match; instead, the match only breaks their chains, leaving the bubble available to drop for points if it becomes separated from the main mass.",
+    "about_text_5": "Remember that a successful match will always destroy all other adjacent bubbles of the same color on screen, setting up the potential for huge chain reactions.",
     "scoring_text_1": "Destroying Bubbles / Chains – 10 points for each bubble or chain destroyed.",
     "scoring_text_1_example": "Example: A group of 4 bubbles gives 50 points, the four in the group plus the fifth used to destroy them.",
     "scoring_text_1_note": "Note: The rainbow bubble counts as a normal bubble when calculating points.",

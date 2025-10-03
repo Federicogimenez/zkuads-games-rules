@@ -5,9 +5,9 @@ import logo from '/into-the-dungeon/logo.png';
 import trap from '/into-the-dungeon/trap.gif';
 import movement from '/into-the-dungeon/movement.gif';
 import treasure from '/into-the-dungeon/treasures.gif';
-// import booster_1 from '/into-the-dungeon/booster_1.png';
-// import booster_2 from '/into-the-dungeon/booster_2.png';
-// import booster_3 from '/into-the-dungeon/booster_3.png';
+import booster_1 from '/into-the-dungeon/booster_1.png';
+import booster_2 from '/into-the-dungeon/booster_2.png';
+import booster_3 from '/into-the-dungeon/booster_3.png';
 
 export default function IntoTheDungeon() {
 
@@ -78,19 +78,19 @@ export default function IntoTheDungeon() {
         <div className="flex justify-center items-start flex-wrap gap-5 p-2 mb-10">
           <div className="grow max-w-[250px]">
             <h5 className="heading-3">{t.into_the_dungeon.boosters_booster_1_title}</h5>
-            {/* <img src={booster_1} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  /> */}
+            <img src={booster_1} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  />
             <p className="description-1">{t.into_the_dungeon.boosters_booster_1_p}</p>
           </div>
           
           <div className="grow max-w-[250px]">
             <h5 className="heading-3">{t.into_the_dungeon.boosters_booster_2_title}</h5>
-            {/* <img src={booster_2} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  /> */}
+            <img src={booster_2} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  />
             <p className="description-1">{t.into_the_dungeon.boosters_booster_2_p}</p>
           </div>
           
           <div className="grow max-w-[250px]">
             <h5 className="heading-3">{t.into_the_dungeon.boosters_booster_3_title}</h5>
-            {/* <img src={booster_3} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  /> */}
+            <img src={booster_3} alt={"extra time"} className="w-[160px] landscape:lg:w-[200px] h-auto mx-auto object-contain mb-4"  />
             <p className="description-1">{t.into_the_dungeon.boosters_booster_3_p}</p>
           </div>
         </div>

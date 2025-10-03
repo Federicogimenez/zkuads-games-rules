@@ -64,19 +64,6 @@ function App() {
           route: "/gems-blast"
         },
     ]
-    //   const helpRoutes = [
-    //       "/fruit-finder",
-    //       "/21-blackjack/",
-    //       "/space-bubbles/",
-    //       "/jungle-treasures/",
-    //       "/tricky-bricks/",
-    //       "/sunny-blocks/",
-    //       "/solitare-paradise/",
-    //       "/just-bingo",
-    //       "/into-the-dungeon",
-    //       "/domino",
-    //       "/gems-blast",
-    // ]
 
   return (
     <Router>

@@ -1,10 +1,10 @@
 {
   "base": {
-    "games_rules": "Regras do Jogo",
-    "game_about": "Sobre",
-    "game_scoring": "Pontuação",
-    "game_boosters": "Impulsionadores",
-    "game_end": "Fim do Jogo"
+    "games_rules": "REGRAS DO JOGO",
+    "game_about": "DESCRIÇÃO",
+    "game_scoring": "PONTUAÇÃO",
+    "game_boosters": "POTENCIALIZADORES",
+    "game_end": "FIM DO JOGO"
   },
   "blackjack": {
     "about_text_1": "No 21BJ você joga com um baralho padrão de 52 cartas (sem coringas), comprando cartas uma por uma de um baralho virado para baixo e colocando-as em quatro colunas onde você formará suas mãos.",
@@ -190,8 +190,13 @@
     "about_text_2": "Uma ótima forma de ganhar pontos extras é com o efeito suspenso: quando você limpa uma combinação, quaisquer bolhas que fiquem completamente suspensas no ar caem, concedendo pontuação extra.",
     "about_text_3": "Você tem controle total sobre sua fila de disparos e pode trocar sua bolha atual pela próxima quantas vezes quiser tocando na área da bolha ativa, permitindo que você prepare o melhor ataque possível.",
     "about_text_4": "Você deve procurar manter uma sequência de combinações consecutivas para carregar Power-Ups poderosos, que só esvaziam se você quebrar a sequência; uma vez carregado, o Power-Up não é perdido se o próximo disparo falhar. A Bomba de Bolhas requer 5 combinações consecutivas, destrói todas as bolhas em seu raio independentemente do tipo (incluindo as resistentes Bolhas de Aço) e só afeta as bolhas na tela. A muito mais forte Bolha Meteoro requer 10 combinações consecutivas, destrói todas as bolhas em seu caminho (na ou fora da tela, independentemente do tipo) e destrói completamente as Bolhas Acorrentadas. Ambos os Power-Ups diferem dos disparos normais por não ricochetearem nas paredes laterais.",
-    "about_text_5": "À medida que você avança, enfrentará Bolhas de Dupla Cor, que podem ser combinadas com qualquer uma das duas cores que contêm, e Bolhas de Aço, que só podem ser removidas ao serem derrubadas ou com um Power-Up. Por fim, Bolhas Acorrentadas não são destruídas por uma combinação de cores; em vez disso, a combinação apenas quebra suas correntes, deixando a bolha disponível para cair e gerar pontos caso se separe do aglomerado principal.",
-    "about_text_6": "Lembre-se: uma combinação bem-sucedida sempre destrói todas as outras bolhas adjacentes da mesma cor na tela, criando potencial para grandes reações em cadeia.",
+    "about_special_1_title": "Bolhas de Dupla Cor",
+    "about_special_1_p": "Podem ser combinadas com qualquer uma das duas cores que contêm.",
+    "about_special_2_title": "Bolhas de Aço",
+    "about_special_2_p": "Só podem ser removidas ao serem derrubadas ou com um Power-Up.",
+    "about_special_3_title": "Bolhas Acorrentadas",
+    "about_special_3_p": "Não são destruídas por uma combinação de cores; em vez disso, a combinação apenas quebra suas correntes, deixando a bolha disponível para cair e gerar pontos caso se separe do aglomerado principal.",
+    "about_text_5": "Lembre-se: uma combinação bem-sucedida sempre destrói todas as outras bolhas adjacentes da mesma cor na tela, criando potencial para grandes reações em cadeia.",
     "scoring_text_1": "Destruir Bolhas / Correntes – 10 pontos para cada bolha ou corrente destruída.",
     "scoring_text_1_example": "Exemplo: Um grupo de 4 bolhas dá 50 pontos (as quatro do grupo mais a quinta usada para destruí-las).",
     "scoring_text_1_note": "Nota: A Bolha Arco-Íris conta como uma bolha normal ao calcular pontos.",

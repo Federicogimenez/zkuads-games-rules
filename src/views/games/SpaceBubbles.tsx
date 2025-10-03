@@ -8,10 +8,9 @@ import burst_streak from '/space-bubbles/burst_streak.gif';
 import bubble_bomb from '/space-bubbles/bubble_bomb.gif';
 import bubbles from '/space-bubbles/bubbles.gif';
 
-import special_1 from '/space-bubbles/Especial-Arcoiris.png';
-import special_2 from '/space-bubbles/Especial-Hierro.png';
-import special_3 from '/space-bubbles/X-Am.png';
-import special_4 from '/space-bubbles/Am-Mo.png';
+import special_1 from '/space-bubbles/special_1.png';
+import special_2 from '/space-bubbles/special_2.png';
+import special_3 from '/space-bubbles/special_3.png';
 
 import booster_1 from '/space-bubbles/booster_1.png';
 import booster_2 from '/space-bubbles/booster_2.png';
@@ -63,8 +62,82 @@ export default function SpaceBubbles() {
           className="w-full max-w-lg h-auto mx-auto object-contain rounded-xl shadow-box-md shadow-black border-2 border-gray-400/50 transition-all hover:border-white mb-10"  
           />
 
-        <p className="w-10/12 mx-auto mt-4">{t.space_bubbles.about_text_5}</p>
-        <p className="w-10/12 mx-auto my-4">{t.space_bubbles.about_text_6}</p>
+
+
+        <div className="w-11/12 max-w-2xl text-center lg:text-left flex flex-col items-center justify-center gap-y-2 mx-auto mt-20">
+            <div className="w-full flex justify-start gap-5 items-center h-full">
+                <img 
+                    src={special_1} 
+                    alt={"special"} 
+                    loading="eager" 
+                    className="w-full max-w-40 h-auto object-contain object-right hidden lg:block"  
+                />
+                <div className="flex-col items-start justify-center gap-y-10 h-full">
+                    <h5 className="max-w-lg mb-4">
+                        {t.space_bubbles.about_special_1_title}
+                    </h5>
+                    <img 
+                        src={special_1} 
+                        alt={"special"} 
+                        loading="eager" 
+                        className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
+                        />
+                    <p className="max-w-xl mx-auto mb-2">
+                        {t.space_bubbles.about_special_1_p}
+                    </p>
+                </div>
+            </div>
+            <hr />
+            <div className="w-full flex justify-start gap-5 items-center h-full">
+                <img 
+                    src={special_2} 
+                    alt={"special"} 
+                    loading="eager" 
+                    className="w-full max-w-40 h-auto object-contain object-right hidden lg:block"  
+                />
+                <div className="flex-col items-start justify-center gap-y-10 h-full">
+                    <h5 className="max-w-lg mb-4">
+                        {t.space_bubbles.about_special_2_title}
+                    </h5>
+                    <img 
+                        src={special_2} 
+                        alt={"special"} 
+                        loading="eager" 
+                        className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
+                        />
+                    <p className="max-w-xl mx-auto mb-2">
+                        {t.space_bubbles.about_special_2_p}
+                    </p>
+                </div>
+      
+            </div>
+            <hr />
+            <div className="w-full flex justify-start gap-5 items-center h-full">
+                <img 
+                    src={special_3} 
+                    alt={"special"} 
+                    loading="eager" 
+                    className="w-full max-w-40 h-auto object-contain object-right hidden lg:block"  
+                />
+                <div className="flex-col items-start justify-center gap-y-10 h-full">
+                    <h5 className="max-w-lg mb-4">
+                        {t.space_bubbles.about_special_3_title}
+                    </h5>
+                    <img 
+                        src={special_3} 
+                        alt={"special"} 
+                        loading="eager" 
+                        className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
+                        />
+                    <p className="max-w-xl mx-auto mb-2">
+                        {t.space_bubbles.about_special_3_p}
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h5 className="w-10/12 mx-auto mt-20 mb-6">{t.space_bubbles.about_text_5}</h5>
+
 
         <Divider color={"bg-gray-primary"} />
       </section>
@@ -72,124 +145,51 @@ export default function SpaceBubbles() {
       <section className="bg-gray-primary py-10">
         <h2 className="heading-1 mb-0">{t.base.game_scoring}</h2>
 
-            <div className="w-11/12 max-w-3xl text-center lg:text-left flex flex-col items-center justify-center gap-y-2 mx-auto">
-                <div className="w-full flex justify-between gap-5 items-center h-full">
-                    <div className="flex-col items-start justify-center gap-y-10 h-full">
-                        <h5 className="max-w-lg mb-4">
-                            {t.space_bubbles.scoring_text_1}
-                        </h5>
-                        <img 
-                            src={special_1} 
-                            alt={"special"} 
-                            loading="eager" 
-                            className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
-                            />
-                        <p className="max-w-xl mx-auto mb-2">
-                            {t.space_bubbles.scoring_text_1_example}
-                        </p>
-                        <p className="text-sm text-white">
-                            {t.space_bubbles.scoring_text_1_note}
-                        </p>
-                    </div>
-                    <img 
-                        src={special_1} 
-                        alt={"special"} 
-                        loading="eager" 
-                        className="w-full max-w-40 h-auto ml-auto object-contain object-right hidden lg:block"  
-                    />
-                </div>
-
-                <hr />
-
-                <div className="w-full flex justify-between gap-5 items-center h-full">
-                    <div className="flex-col items-start justify-center gap-y-10 h-full">
-                        <h5 className="max-w-lg mb-4">
-                            {t.space_bubbles.scoring_text_2}
-                        </h5>
-                        <img 
-                            src={special_2} 
-                            alt={"special"} 
-                            loading="eager" 
-                            className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
-                            />
-                    </div>
-                    <img 
-                        src={special_2} 
-                        alt={"special"} 
-                        loading="eager" 
-                        className="w-full max-w-40 h-auto ml-auto object-contain object-right hidden lg:block"  
-                    />
-                </div>
-
-                <hr />
-
-                <div className="w-full flex justify-between gap-5 items-center h-full">
-                    <div className="flex-col items-start justify-center gap-y-10 h-full">
-                        <h5 className="max-w-lg mb-4">
-                            {t.space_bubbles.scoring_text_3}
-                        </h5>
-                        <img 
-                            src={special_3} 
-                            alt={"special"} 
-                            loading="eager" 
-                            className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
-                            />
-                        <p className="max-w-xl mx-auto mb-2">
-                            {t.space_bubbles.scoring_text_3_example}
-                        </p>
-                    </div>
-                    <img 
-                        src={special_3} 
-                        alt={"special"} 
-                        loading="eager" 
-                        className="w-full max-w-40 h-auto ml-auto object-contain object-right hidden lg:block"  
-                    />
-                </div>
-
-                <hr />
                 
-                <div className="w-full flex justify-between gap-5 items-center h-full">
-                    <div className="flex-col items-start justify-center gap-y-10 h-full">
-                        <h5 className="max-w-lg mb-4">
-                            {t.space_bubbles.scoring_text_4}
-                        </h5>
-                        <img 
-                            src={special_4} 
-                            alt={"special"} 
-                            loading="eager" 
-                            className="w-full max-w-40 h-auto mx-auto object-contain mb-10 lg:hidden"  
-                            />
-                        <p className="max-w-xl mx-auto mb-2">
-                            - {t.space_bubbles.scoring_text_4_li_1}
-                        </p>
-                        <p className="max-w-xl mx-auto mb-2">
-                            - {t.space_bubbles.scoring_text_4_li_2}
-                        </p>
-                        <p className="text-sm text-white">
-                            {t.space_bubbles.scoring_text_1_note}
-                        </p>
-                    </div>
-                    <img 
-                        src={special_4} 
-                        alt={"special"} 
-                        loading="eager" 
-                        className="w-full max-w-40 h-auto ml-auto object-contain object-right hidden lg:block"  
-                    />
-                </div>
-            </div>
-
-
-
-
-            {/* <img 
-                src={streak} 
-                alt={"streak"} 
-                loading="eager" 
-                className="w-full max-w-lg h-auto mx-auto object-contain rounded-xl shadow-box-md shadow-black border-2 border-gray-400/50 transition-all hover:border-white"  
-            />
-            <p className="description-1 mt-4">{t.space_bubbles.scoring_text_2}</p>
-            <h5 className="heading-3">{t.space_bubbles.scoring_text_3}</h5> */}
-
+        <div className="w-full flex flex-col items-center justify-center gap-y-6 h-full">
+            <h4 className="max-w-lg mb-4">
+                {t.space_bubbles.scoring_text_1}
+            </h4>
+      
+            <p className="max-w-xl mx-auto mb-2">
+                {t.space_bubbles.scoring_text_1_example}
+            </p>
+            <p className="text-sm text-white">
+                {t.space_bubbles.scoring_text_1_note}
+            </p>
+        </div>
+        <hr />
+        <div className="flex flex-col items-center justify-center gap-y-6 h-full">
+            <h4 className="max-w-lg mb-4">
+                {t.space_bubbles.scoring_text_2}
+            </h4>
+        </div>
+        <hr />
+        <div className="flex flex-col items-center justify-center gap-y-6 h-full">
+            <h4 className="max-w-lg mb-4">
+                {t.space_bubbles.scoring_text_3}
+            </h4>
+      
+            <p className="max-w-xl mx-auto mb-2">
+                {t.space_bubbles.scoring_text_3_example}
+            </p>
+        </div>
+        <hr />
+        <div className="flex flex-col items-center justify-center gap-y-6 h-full">
+            <h4 className="max-w-lg mb-4">
+                {t.space_bubbles.scoring_text_4}
+            </h4>
+      
+            <p className="max-w-xl mx-auto mb-2">
+                {t.space_bubbles.scoring_text_4_li_1}
+            </p>
+            <p className="max-w-xl mx-auto mb-2">
+                {t.space_bubbles.scoring_text_4_li_2}
+            </p>
+            <p className="text-sm text-white">
+                {t.space_bubbles.scoring_text_4_note}
+            </p>
+        </div>
 
 
       </section>
