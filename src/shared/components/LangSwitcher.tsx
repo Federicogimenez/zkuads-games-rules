@@ -21,7 +21,7 @@ export default function LangSwitcher() {
         },
         {
             label: "pt",
-            language_option: "pt_BR",
+            language_option: "pt_PT",
         },
     ]
 

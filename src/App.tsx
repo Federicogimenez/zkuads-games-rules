@@ -45,7 +45,7 @@ function App() {
         },
         {
           component: <SolitaireParadise />,
-          route: "/solitare-paradise/"
+          route: "/solitare/"
         },
         {
           component: <JustBingo />,

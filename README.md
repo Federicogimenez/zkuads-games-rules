@@ -4,7 +4,11 @@
 
 This project serves the game rules for each game so they can be displayed in the main frontend.
 There is a route for each game that can be embedded in an iframe and
-it detects language via URL parameters; it can read es_ES, en_US, and pt_BR.
+it detects language via URL ?lang parameter:
+- ?lang=en_US
+- ?lang=es_ES
+- ?lang=pt_PT
+
 
 ### Run & Build Commands
 
