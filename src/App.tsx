@@ -25,27 +25,27 @@ function App() {
         },
         {
           component: <BlackJack />,
-          route: "/21-blackjack/"
+          route: "/21-blackjack"
         },
         {
           component: <SpaceBubbles />,
-          route: "/space-bubbles/"
+          route: "/space-bubbles"
         },
         {
           component: <JungleTreasures />,
-          route: "/jungle-treasures/"
+          route: "/jungle-treasures"
         },
         {
           component: <TrickyBricks />,
-          route: "/tricky-bricks/"
+          route: "/tricky-bricks"
         },
         {
           component: <SunnyBlocks />,
-          route: "/sunny-blocks/"
+          route: "/sunny-blocks"
         },
         {
           component: <SolitaireParadise />,
-          route: "/solitare/"
+          route: "/solitaire-paradise"
         },
         {
           component: <JustBingo />,

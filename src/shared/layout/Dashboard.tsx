@@ -43,7 +43,7 @@ const Dashboard = () => {
         },
         {
             img: solitaire_paradise,
-            path: "/solitare-paradise/"
+            path: "/solitaire-paradise"
         },
         {
             img: just_bingo,
