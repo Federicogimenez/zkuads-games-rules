@@ -11,7 +11,7 @@
   --color-pink-primary: #f950fa;
   --color-pink-secondary: #bb01ff;
   --color-gray-primary: #121212;
-  --color-gray-secondary: #242424;
+  --color-gray-secondary: #303030;
   --color-orange-primary: #fc9f02;
   --color-orange-secondary: #f56902;
   --color-green-primary: #5ed57c;
@@ -19,6 +19,7 @@
   --font-killer:'Virus Killer', sans-serif;
   --font-roboto:'Roboto', sans-serif;
 
+  --shadow-box-xl: 8px 6px 0px 0px ;
   --shadow-box-lg: 7px 5px 0px 0px ;
   --shadow-box-md: 6px 4px 0px 0px ;
   --shadow-box-sm: 5px 3px 0px 0px ;

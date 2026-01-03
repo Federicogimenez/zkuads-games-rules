@@ -70,11 +70,11 @@ const Dashboard = () => {
        {
         helpLinks.map(( { img, path } )=>{
             return <Link to={path} className='block relative w-full h-fit overflow-hidden rounded-xl shadow-black box-content transition-all duration-200 
-                                            hover:translate-1 shadow-box-lg hover:shadow-none
-                                            active:translate-1.5
-                                            after:absolute after:inset-0 after:rounded-xl after:transition-all  after:border-t-4 after:border-transparent hover:after:border-white
-                                            before:absolute before:inset-0 before:bg-transparent before:transition-all before:duration-500 before:bg-gradient-to-b before:from-white/40 before:to-transparent before:opacity-0 hover:before:opacity-70
+                                            hover:-translate-1 shadow-box-xl 
+                                            active:translate-0
                                             '>
+                                                {/* before:absolute before:inset-0 before:bg-transparent before:transition-all before:duration-500 before:bg-gradient-to-b before:from-white/40 before:to-transparent before:opacity-0 hover:before:opacity-70 */}
+                                                {/* after:absolute after:inset-0 after:rounded-xl after:transition-all  after:border-t-4 after:border-transparent hover:after:border-white */}
                 <img src={img} alt={"game logo"} className='w-full h-full object-cover object-center'/>
             </Link>
         })
