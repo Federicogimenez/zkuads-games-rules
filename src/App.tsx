@@ -12,6 +12,7 @@ import JustBingo from "./views/games/JustBingo";
 import Domino from "./views/games/Domino";
 import IntoTheDungeon from "./views/games/IntoTheDungeon";
 import SolitaireParadise from "./views/games/SolitaireParadise";
+import GemsBlast from "./views/games/GemsBlast";
 
 const Home = lazy( () => import('./views/Home') )
 
@@ -60,7 +61,7 @@ function App() {
           route: "/domino"
         },
         {
-          component: <BlackJack />,
+          component: <GemsBlast />,
           route: "/gems-blast"
         },
     ]
